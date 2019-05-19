@@ -17,3 +17,6 @@ jboss/server/minimal/work/**/*
 # deployed package files #
 
 *.DEPLOYED
+jboss-5.1.0.GA-jdk6.zip
+Dockerfile.prev
+files
