@@ -4,7 +4,7 @@ Dockerfile to build an old jboss server that's vulnerable to java deserializatio
 ## Preparation
 * Clone this repo
 * Download old Jboss 5.X from Sourceforge. For example, [JBoss 5.1.0 GA](https://sourceforge.net/projects/jboss/files/JBoss/JBoss-5.1.0.GA/jboss-5.1.0.GA-jdk6.zip/download).
-* Adjust Dockerfile accordingly.
+* Adjust COPY command in Dockerfile if needed.
 * Build docker container with a command such as `docker build -t "${PWD##*/}" .`
 
 ## How to use
